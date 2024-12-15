@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      type="text/css" />
+   <link rel="stylesheet" type="text/css" href="./style.css" />
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+   <title>SPA semplice</title>
+</head>
+
+<body>
+   <div id="container" class="container">
+      <div id="pagina1" class="page">
+         <div class="row">
+            Parallelizzare i task
+            L'attività di parallelizzazione, come si è visto, consiste nel dividere il flusso del programma in più sottoflussi o task per i quali il sistema operativo garantisce una esecuzione parallela a livello hardware. Non è il programmatore a garantire il parallelismo ma per farlo sfrutta il sistema operativo, che rende effettivo il parallelismo attivando i processori paralleli (o le macchine parallele) se sono disponibili. 
+            
+            In assenza di risorse disponibili per la parallelizzazione, il software sarà eseguito in modo sequenziale rendendo nulli i vantaggi della parallelizzazione, ed anzi rallentando l'esecuzione dell'applicazione stessa perchè l'attività di creazione e gestione di task paralleli richiede comunque tempo di calcolo. L'applicazione comunque funzionerà correttamente anche su sistemi monoprocessore.
+            
+            A livello tecnico la parallelizzazione consiste nell'eseguire una suddivisione dell'attività mediante la creazione, all'interno della stessa applicazione di uno o più sottoflussi a cui assegnare dei task specifici.</div>
+         <div class="row"><a href="#pagina2">Questo è un link a Introduzione a NodeJs</a></div>
+         <div class="row"><a href="#pagina3">Questo è un link a Metodi di programmazione</a></div>                  
+      </div>
+      <div id="pagina2" class="page">
+         <div class="row"><a href="#pagina1">Questo è un link a programmazione parallela in C++</a></div>
+         <div class="row">
+            Cosa è NodeJs
+            NodeJs è un runtime che consente di eseguire applicazioni scritte in Javascript su qualsiasi macchina, estendendo quindi la possibilità di scrivere applicazioni in questo linguaggio al di fuori del browser.
+            
+            Il motore di esecuzione di NodeJS è Google V8, lo stesso utilizzato per il browser Chrome.
+            
+            NodeJs è utilizzato nello specifico per realizzare siti web, web services, applicazioni desktop, applicazioni di IoT e di Intelligenza Artificiale, ed infine come strumento a supporto dello sviluppo di altri linguaggi, in particolare nella realizzazione di applicazioni mobile (grazie a framework come Cordova e Ionic).
+            
+            Grazie al fatto che Javascript è il linguaggio di programmazione più utilizzato al mondo NodeJs ha avuto una enorme diffusione.</div>         
+         <div class="row"><a href="#pagina3">Questo è un link a Metodi di programmazione</a></div>                  
+      </div>
+      <div id="pagina3" class="page">         
+         <div class="row"><a href="#pagina1">Questo è un link a rogrammazione parallela in C++1</a></div>
+         <div class="row"><a href="#pagina2">Questo è un link a Introduzione a NodeJs</a></div>                  
+         <div class="row">
+            Cosa è lo sviluppo del software?
+            Aldilà dell'ovvia risposta, occorre comprendere che sviluppare software consiste nel realizzare una attività artigianale supportata da strumenti software ed un insieme di metodologie ingegneristiche. Grazie a questi tre fattori combinati il programmatore (o il team di sviluppo) riesce a realizzare applicazioni software dalle più semplici alle più complesse, con molti moduli e componenti che interagiscono tra loro per fornire servizi e calcoli all'utente.
+            
+            Non esiste una procedura meccanica, una metodologia sempre identica per risolvere qualunque tipo di problema. Ogni problema infatti richiede una soluzione specifica, un procedimento particolare che porta ad una determinata sequenza di istruzioni che risolvono quel determinato problema. Ad esempio la procedura per creare un programma che calcola il minimo comune multiplo è certamente molto diversa dalla procedura per creare un programma che calcola il pi greco. </div>
+      </div>
+   </div>
+   <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
